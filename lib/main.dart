@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 import 'package:meals_app/models/category.dart';
 
@@ -11,7 +13,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'DeliMeals',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.pink,
+        accentColor: Colors.amber,
+        canvasColor: Color.fromRGBO(255, 254, 229, 1),
+        fontFamily: 'Railway',
+        textTheme: ThemeData.light().textTheme.copyWith(
+                titleMedium: TextStyle(
+              fontSize: 22,
+              fontFamily: 'RobotoCondensed',
+              fontWeight: FontWeight.bold,
+            )),
       ),
       home: CategoriesScreen(),
     );
