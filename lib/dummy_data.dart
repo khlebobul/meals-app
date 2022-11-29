@@ -67,7 +67,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://heavenlyhomecooking.com/wp-content/uploads/2020/10/Pineapple-French-Toast-Recipe-7.jpg',
+        'https://www.giallozafferano.com/images/228-22832/spaghetti-with-tomato-sauce_1200x800.jpg',
     duration: 20,
     ingredients: [
       '4 Tomatoes',
@@ -100,7 +100,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://recipes.net/wp-content/uploads/portal_files/recipes_net_posts/2020-12/classic-hamburger-recipe.jpeg',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Toast_Hawaii_RZ.jpg/440px-Toast_Hawaii_RZ.jpg',
     duration: 10,
     ingredients: [
       '1 Slice White Bread',
@@ -160,7 +160,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Challenging,
     imageUrl:
-        'https://img.taste.com.au/6EwE-orX/w720-h480-cfill-q80/taste/2018/07/smoked-salmon-salad-with-green-goddess-dressing-139471-1.jpg',
+        'https://www.gutekueche.at/storage/media/recipe/106126/resp/wiener-schnitzel___webp_940_705.webp',
     duration: 60,
     ingredients: [
       '8 Veal Cutlets',
@@ -197,7 +197,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://amandascookin.com/wp-content/uploads/2021/03/Whipped-Jello-Mandarin-Orange-Mousse-V1-1100x1650.jpg',
+        'https://img.taste.com.au/6EwE-orX/w720-h480-cfill-q80/taste/2018/07/smoked-salmon-salad-with-green-goddess-dressing-139471-1.jpg',
     duration: 15,
     ingredients: [
       'Arugula',
@@ -232,7 +232,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
-        'https://static.onecms.io/wp-content/uploads/sites/43/2022/02/16/21014-Good-old-Fashioned-Pancakes-mfs_001.jpg',
+        'https://amandascookin.com/wp-content/uploads/2021/03/Whipped-Jello-Mandarin-Orange-Mousse-V1-1100x1650.jpg',
     duration: 240,
     ingredients: [
       '4 Sheets of Gelatine',
@@ -267,7 +267,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/creamy-indian-chicken-curry-6bd6fb64.jpg',
+        'https://static.onecms.io/wp-content/uploads/sites/43/2022/02/16/21014-Good-old-Fashioned-Pancakes-mfs_001.jpg',
     duration: 20,
     ingredients: [
       '1 1/2 Cups all-purpose Flour',
@@ -298,7 +298,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Pricey,
     complexity: Complexity.Challenging,
     imageUrl:
-        'https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Hot-Cocoa-Souffle_EXPS_THCA19_163421_C02_23_7b.jpg',
+        'https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_auto,w_2600/hellofresh_s3/image/creamy-indian-chicken-curry-2cc37063.jpg',
     duration: 35,
     ingredients: [
       '4 Chicken Breasts',
@@ -331,7 +331,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
-        'https://static.onecms.io/wp-content/uploads/sites/19/2010/05/17/tomato-salad-su-x.jpg',
+        'https://www.bora.com/fileadmin/_processed_/4/4/csm_Schokoladen-Zimt-Souffle_d8105cdda4.jpg.webp',
     duration: 45,
     ingredients: [
       '1 Teaspoon melted Butter',
@@ -382,7 +382,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://static.onecms.io/wp-content/uploads/sites/19/2010/05/17/tomato-salad-su-x.jpg',
+        'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2010%2F05%2F17%2Ftomato-salad-su-x.jpg',
     duration: 30,
     ingredients: [
       'White and Green Asparagus',
