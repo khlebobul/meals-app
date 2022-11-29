@@ -33,7 +33,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
     String title,
     String description,
     bool currentValue,
-    Function updateValue,
+    void Function(bool) updateValue,
   ) {
     return SwitchListTile(
       title: Text(title),
@@ -41,7 +41,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
       subtitle: Text(
         description,
       ),
-      onChanged: (value) => updateValue,
+      onChanged: updateValue,
     );
   }
 
@@ -83,11 +83,9 @@ class _FiltersScreenState extends State<FiltersScreen> {
                   'Only include gluten-free meals.',
                   _glutenFree,
                   (newValue) {
-                    setState(
-                      () {
-                        _glutenFree = newValue;
-                      },
-                    );
+                    setState(() {
+                      _glutenFree = newValue;
+                    });
                   },
                 ),
                 _buildSwitchListTile(
